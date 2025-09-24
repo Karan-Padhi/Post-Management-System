@@ -1,0 +1,108 @@
+/* src/style.css */
+
+/* Global Styles & Fonts */
+:root {
+  --primary-color: #007bff; /* Bootstrap's primary color */
+  --secondary-color: #6c757d; /* Bootstrap's secondary color */
+  --accent-color: #6a1a21; /* A new, deep red accent */
+  --light-bg-color: #f8f9fa;
+  --dark-bg-color: #212529;
+  --header-bg-color: #343a40;
+}
+
+body {
+  background-color: var(--light-bg-color);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Georgia", serif;
+  color: var(--header-bg-color);
+}
+
+.text-white a {
+  color: white;
+}
+
+.text-white a:hover {
+  color: #a4a4a4;
+}
+
+/* Header & Navigation */
+.bg-dark {
+  background-color: var(--header-bg-color) !important;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Main Container */
+.container {
+  max-width: 960px;
+}
+
+/* Post Cards */
+.card {
+  border-radius: 10px;
+  border: none;
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+  color: var(--accent-color);
+  font-size: 1.25rem;
+}
+
+.badge {
+  font-weight: 500;
+}
+
+.badge.bg-info {
+  background-color: #17a2b8 !important;
+}
+
+.badge.bg-secondary {
+  background-color: #6c757d !important;
+}
+
+/* Form Styles */
+.form-label {
+  font-weight: 600;
+}
+
+/* Post View Page */
+.post-view .tags .badge {
+  background-color: var(--secondary-color) !important;
+}
+
+/* Empty State UI */
+.empty-state {
+  text-align: center;
+  padding: 50px 0;
+  color: var(--secondary-color);
+}
+
+.empty-state-icon {
+  font-size: 4rem;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
