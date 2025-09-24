@@ -36,6 +36,9 @@ The application starts with at least **10 seed posts** preloaded into localStora
 
 ### Screen Recording of actual project
 
-https://github.com/user-attachments/assets/ba262bb0-38e5-41a7-b5e0-df55f8bccd45
+
+https://github.com/user-attachments/assets/b46cd6aa-94ce-4a6e-be03-b83a7ce3bdc1
+
+
 
 
